@@ -1,0 +1,14 @@
+.app-container {
+    color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 850px;
+}
+
+.header {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Roboto Light", sans-serif;
+}

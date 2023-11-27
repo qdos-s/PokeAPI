@@ -1,0 +1,28 @@
+type PokemonData {
+    id: ID!
+    name: String!
+    image: String!
+}
+
+type Pokemons {
+    count: Int!
+    next: String
+    previous: String
+    results: [PokemonData!]!
+}
+
+type Pokemon {
+    id: ID!
+    name: String!
+    image: String!
+    height: Int!
+    weight: Int!
+    abilities: [String]
+    experience: Int!
+    types: [String]
+}
+
+type Query {
+    pokemons(limit: Int!, offset: Int!): Pokemons!
+    pokemon(name: String!): Pokemon!
+}

@@ -1,0 +1,32 @@
+.pokemons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fallback-text {
+    width: 850px;
+    text-align: center;
+}
+
+.load-more {
+    color: lightpink;
+    border: 3px solid lightpink;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
