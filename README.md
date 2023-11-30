@@ -1,6 +1,10 @@
 API:
 https://pokeapi.co/
 
+# How to start project locally:
+1. cd backend/ -> npm install -> npm run dev
+2. cd frontend/ -> npm install -> npm run dev
+
 Stack:
 Node.js, React, GraphQL, Apollo Client, TypeScript
 
